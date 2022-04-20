@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="light">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>TheCodeholic - Free Educational Content Creator</title>
+    <title>Exportadora São Francisco</title>
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <script src="https://apis.google.com/js/platform.js"></script>
+
+    <script src="https://kit.fontawesome.com/5add325a75.js" crossorigin="anonymous"></script>
 </head>
-<body class="text-gray-800 dark:text-gray-200 ">
+<body class="text-gray-800 dark:text-gray-200">
 <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
     <x-layout.navbar></x-layout.navbar>
     {{ $slot }}

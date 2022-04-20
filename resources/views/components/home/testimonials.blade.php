@@ -1,5 +1,5 @@
 <!-- ====== Testimonials Section Start -->
-<section class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px]">
+<section class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px]" id="testimonials">
    <div class="container">
       <div
          x-data="

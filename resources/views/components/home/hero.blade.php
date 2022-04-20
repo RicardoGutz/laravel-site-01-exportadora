@@ -5,28 +5,22 @@
       <div class="w-full lg:w-5/12 px-4">
         <div class="hero-content">
           <h1
-            class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6"
-          >
-            My Name is Zura. <br/>
-            I am <span class="rounded-md text-amber-600">TheCodeholic</span>.
+            class="font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
+            <span class="rounded-md text-blue-600">EXPORTADORA SÃO </span><span class="text-red-600">FRANCISCO</span><br/>
           </h1>
-          <p class="text-base mb-8 max-w-[520px]">
-            I am a developer with 10+ years of experience. <br/>
-            I love sharing my knowledge to others, that's why I created a
-            <a
-              class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary"
-              href="https://youtube.com/TheCodeholic" target="_blank">YouTube Channel</a>. <br>
+          <p class="text-xl mb-8 max-w-[520px]">
+          Soluções em fornecimento e serviços<br/> <span class="text-red-600 font-semibold">para navios</span>.<br/>
           </p>
           <ul class="flex flex-wrap items-center">
             <li>
               <x-button-link href="#portfolio" variant="primary" class="rounded-lg">
-                My Projects
+                SERVIÇOS
               </x-button-link>
             </li>
           </ul>
           <div class="clients pt-16">
             <h6 class="font-normal text-xs flex items-center text-body-color dark:text-gray-300 mb-4">
-              Follow me on social media
+              Siga-nos nas redes sociais
               <span class="w-8 h-[1px] bg-body-color inline-block ml-2"></span>
             </h6>
             <x-social-icons></x-social-icons>
@@ -38,9 +32,9 @@
         <div class="lg:text-right lg:ml-auto">
           <div class="relative inline-block z-10 pt-11 lg:pt-0">
             <img
-              src="{{ url('/img/me_hero.png') }}"
+              src="{{ url('/img/imagem-banner.jpg') }}"
               alt="hero"
-              class="max-w-full lg:ml-auto"
+              class="max-w-full lg:ml-auto rounded-md"
             />
             <span class="absolute -left-8 -bottom-8 z-[-1]">
               <svg
